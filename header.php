@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -13,7 +13,7 @@
 <script src="js/navbar_01.js"></script>
 </head>
 
-<div class="navbar" id="myTopnav">
+<div class="navbar01" id="navbar01">
 <a href="https://devbrains.net/index.php">Home</a>
 <a href="https://devbrains.net/about.php">About</a>
 <a href="https://devbrains.net/contact.php">Contact</a>
