@@ -7,5 +7,34 @@ body {
   p {
     color: red;
   }
-
   
+
+  .navbar .icon {
+    display: none;
+  }
+
+  .navbar.expanded {
+    height: auto;
+  }
+
+  @media screen and (max-width: 650px) {
+    .navbar.expanded a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.expanded a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      display: block;
+      float: right;
+    }
+  }
+
